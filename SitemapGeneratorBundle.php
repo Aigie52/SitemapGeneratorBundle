@@ -9,7 +9,9 @@
 namespace AG\SitemapGeneratorBundle;
 
 
-class SitemapGeneratorBundle
+use Symfony\Component\HttpKernel\Bundle\Bundle;
+
+class SitemapGeneratorBundle extends Bundle
 {
 
 }
