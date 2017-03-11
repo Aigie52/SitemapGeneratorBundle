@@ -1,0 +1,25 @@
+{
+  "name": "ag/sitemap-generator-bundle",
+  "type": "symfony-bundle",
+  "description": "SF3 Bundle - Sitemap XML Generator",
+  "keywords": ["Sitemap generator", "xml"],
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Aurore Gaucher",
+      "email": "contact@auroregaucher.com",
+      "homepage": "http://www.auroregaucher.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "symfony/framework-bundle": "3.2.*",
+    "twig/twig": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "AG\\SitemapGeneratorBundle": ""
+    }
+  },
+  "target-dir": "AG/SitemapGeneratorBundle"
+}
