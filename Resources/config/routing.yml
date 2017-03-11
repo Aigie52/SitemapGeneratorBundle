@@ -1,0 +1,5 @@
+sitemap:
+    path:     /sitemap.{_format}
+    defaults: { _controller: SitemapGeneratorBundle:Sitemap:sitemap }
+    requirements:
+        _format: xml
