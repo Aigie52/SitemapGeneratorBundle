@@ -1,5 +1,5 @@
 sitemap:
     path:     /sitemap.{_format}
-    defaults: { _controller: SitemapGeneratorBundle:Sitemap:sitemap }
+    defaults: { _controller: AigieSitemapGeneratorBundle:Sitemap:sitemap }
     requirements:
         _format: xml
