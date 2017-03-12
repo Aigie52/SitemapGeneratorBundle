@@ -1,5 +1,5 @@
 {
-  "name": "ag/sitemap-generator-bundle",
+  "name": "aigie/sitemap-generator-bundle",
   "type": "symfony-bundle",
   "description": "SF3 Bundle - Sitemap XML Generator",
   "keywords": ["Sitemap generator", "xml"],
@@ -19,8 +19,8 @@
   },
   "autoload": {
     "psr-0": {
-      "AG\\SitemapGeneratorBundle": ""
+      "Aigie\\SitemapGeneratorBundle": ""
     }
   },
-  "target-dir": "AG/SitemapGeneratorBundle"
+  "target-dir": "Aigie/SitemapGeneratorBundle"
 }

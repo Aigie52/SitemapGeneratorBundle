@@ -1,4 +1,4 @@
 services:
-    ag.sitemap_generator:
-        class: AG\SitemapGeneratorBundle\Util\SiteMapGenerator
+    aigie.sitemap_generator:
+        class: Aigie\SitemapGeneratorBundle\Services\SiteMapGenerator
         arguments: ["@router", "@doctrine.orm.entity_manager", "@request_stack"]

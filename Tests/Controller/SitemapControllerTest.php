@@ -6,7 +6,7 @@
  * Time: 14:49
  */
 
-namespace AG\SitemapGeneratorBundle\Tests\Controller;
+namespace Aigie\SitemapGeneratorBundle\Tests\Controller;
 
 
 class SitemapControllerTest

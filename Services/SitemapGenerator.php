@@ -6,7 +6,7 @@
  * Time: 14:09
  */
 
-namespace AG\SitemapGeneratorBundle\Util;
+namespace Aigie\SitemapGeneratorBundle\Services;
 
 
 use Doctrine\ORM\EntityManager;

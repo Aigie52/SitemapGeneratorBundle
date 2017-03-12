@@ -6,7 +6,7 @@
  * Time: 14:18
  */
 
-namespace AG\SitemapGeneratorBundle;
+namespace Aigie\SitemapGeneratorBundle;
 
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;

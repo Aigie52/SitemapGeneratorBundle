@@ -6,7 +6,7 @@
  * Time: 14:37
  */
 
-namespace Ag\SitemapGeneratorBundle\Controller;
+namespace Aigie\SitemapGeneratorBundle\Controller;
 
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
