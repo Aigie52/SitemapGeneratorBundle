@@ -15,7 +15,8 @@ class SitemapController extends Controller
 {
     public function sitemapAction()
     {
-        $data = $this->get('ag.sitemap_generator')->generate(array('Default'));
+        $controllers = $this->container->getParameter('sitemap.controllers');
+        $data = $this->get('ag.sitemap_generator')->generate($controllers);
 
         return $this->render('sitemap.xml.twig', array(
             'urls' => $data['urls'],
