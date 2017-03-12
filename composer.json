@@ -21,6 +21,5 @@
     "psr-0": {
       "Aigie\\SitemapGeneratorBundle": ""
     }
-  },
-  "target-dir": "Aigie/SitemapGeneratorBundle"
+  }
 }
